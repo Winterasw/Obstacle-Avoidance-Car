@@ -48,12 +48,6 @@ void loop() {
   Serial.print(distanceFront);
   Serial.println(" cm");
 
-
-
-
-
-
-
   if (distanceFront > 20) {
     moveForward();
   } else {
